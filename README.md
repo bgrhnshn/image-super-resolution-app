@@ -5,7 +5,7 @@ MAT dosyaları double, ağı eğitirken daha fazla hassasiyet için veri türü 
 
 
 
-
+![Resim2](https://user-images.githubusercontent.com/82895857/125135849-5a904f80-e112-11eb-8904-cdd285ea46b4.png)
 
 
 
@@ -101,8 +101,7 @@ Yüksek çözünürlüklü VDSR parlaklık bileşenini ölçeklendirilmiş renk 
 # Yorumlar (En başarılı parametre değerleri, nedenleri vs.):
 VDSR, her ölçek faktörü için iki kübik enterpolasyondan daha iyi metrik puanlara sahiptir.
 
-
-
+![Resim1](https://user-images.githubusercontent.com/82895857/125132545-223a4280-e10d-11eb-8421-79ea1d5363d5.png)
 
 
 
