@@ -23,7 +23,10 @@ Test veri seti, testImagesImage Processing Toolbox ™ içinde gönderilen 21 bo
 
 
 
+# Veriseti
+'http://www-i6.informatik.rwth-aachen.de/imageclef/resources/iaprtc12.tgz'
 
+20.000 hareketsiz doğal görüntüden [ 2 ] oluşan IAPR TC-12 Benchmark'ı indirdik . Veri seti, insanların, hayvanların, şehirlerin ve daha fazlasının fotoğraflarını içeriyor. Veri dosyasının boyutu ~ 1.8 GB'dir. Eğitim veri setini indirmek istemiyorsanız load('trainedVDSR-Epoch-100-ScaleFactors-234.mat');, komut satırına yazarak önceden eğitilmiş VDSR ağını yükleyebilirsiniz . 
 
 # Eğitim
 Momentum (SGDM) optimizasyonu ile stokastik gradyan inişini kullanarak ağı eğitiyoruz. (Derin Öğrenme Araç Kutusu) işlevini kullanarak SGDM için hiperparametre ayarlarını belirtiyoruz. Öğrenme oranı başlangıçta her 10 dönemde bir 10 faktör azaltılır. 100 devir için eğitim(trainingOptions0.1).
